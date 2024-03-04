@@ -127,19 +127,21 @@ class _HomePageState extends State<_HomePage> {
               tabsRouter.setActiveIndex(0);
               context.read<NavigatorControllerCubit>().backToHome();
             },
-            child: Column(
-              children: [
-                BlocBuilder<NavigatorControllerCubit, NavigatorControllerState>(
-                  builder: (context, state) => Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 8),
-                    child: HeaderWidget(
-                      tab: state.selectedTab,
-                      onSettingClick: _onSettingClick,
+            child: SafeArea(
+              child: Column(
+                children: [
+                  BlocBuilder<NavigatorControllerCubit, NavigatorControllerState>(
+                    builder: (context, state) => Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 8),
+                      child: HeaderWidget(
+                        tab: state.selectedTab,
+                        onSettingClick: _onSettingClick,
+                      ),
                     ),
                   ),
-                ),
-                Expanded(child: child),
-              ],
+                  Expanded(child: child),
+                ],
+              ),
             ),
           ),
         );

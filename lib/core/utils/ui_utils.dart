@@ -20,7 +20,7 @@ class UiUtils {
 
   static const menuWidth = 182.0;
 
-  static const horizontalPadding = 24.0;
+  static const horizontalPadding = 16.0;
   
   static const borderRadius = 16.0;
   
