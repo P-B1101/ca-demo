@@ -149,7 +149,7 @@ class _DashboardPageState extends State<_DashboardPage> {
             itemCount: items.length + 1,
             padding: const EdgeInsets.only(
               top: 4,
-              bottom: UiUtils.bottomAppBarHeight * 2,
+              bottom: UiUtils.bottomAppBarHeight ,
               left: UiUtils.horizontalPadding,
               right: UiUtils.horizontalPadding,
             ),
