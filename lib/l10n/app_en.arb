@@ -1,0 +1,16 @@
+{
+    "general_error": "some error occurred",
+    "internet_error": "no internet connection",
+    "access_denied_message": "access denied",
+    "app_name": "Demo App",
+    "app_tab_dashboard": "Dashboard",
+    "app_tab_budgets": "Spending & Budgets",
+    "app_tab_events": "Events",
+    "app_tab_cards": "Cards",
+    "budget_info_place_holder": "of $$0 budget",
+    "budget_status_good": "Your budgets are on track 👍",
+    "budget_status_bad": "You have a lack of budget",
+    "add_new_budget_category": "Add new category",
+    "left_to_spend_place_holder": "$$0 left to spend",
+    "of_dollar_place_holder": "of $$0"
+}

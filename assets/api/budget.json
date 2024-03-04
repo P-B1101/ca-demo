@@ -1,0 +1,26 @@
+{
+    "categories": [
+        {
+            "name": "Auto & Transport",
+            "total": 400,
+            "amount": 88.50,
+            "color": "COLOR_3",
+            "icon": "CAR"
+        },
+        {
+            "name": "Entertainment",
+            "total": 600,
+            "amount": 188.50,
+            "color": "COLOR_2",
+            "icon": "ENTERTAINMENT"
+        },
+        {
+            "name": "Security",
+            "total": 500,
+            "amount": 67.50,
+            "color": "COLOR_1",
+            "icon": "FINGERPRINT"
+        }
+    ],
+    "budget": 2000
+}
